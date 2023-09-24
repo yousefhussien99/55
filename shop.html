@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+ <!-- bootstrap -->
+
+ <link
+ href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+ rel="stylesheet"
+ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+ crossorigin="anonymous"
+/>
+</head>
+<body>
+<section id="header">
+    <h2 class="logo">fashionista</h2>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="design.html">Design</a></li>
+                <li><a href="repair.html">Repair</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+                
+            </ul>
+        </div>
+        <div id="mobile">
+        <a href="cart.html"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+        </div>
+</section>
+
+    <section id="page-header">
+        
+        <h2>Categories you might like</h2>
+    
+        <p>Save More With Coupons & Up To 70% Off!</p>
+        
+    </section>
+     <!-- start filteration section  -->
+
+     <section class="py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <h5 class="my-4">
+                Choose your color
+              </h5>
+              <div class="d-flex justify-content-between">
+                <div data-filter="red" class="bg-danger color_item"></div>
+                <div data-filter="blue" class="bg-primary color_item"></div>
+                <div data-filter="yellow" class="bg-warning color_item"></div>
+                <div data-filter="black" class="bg-dark color_item"></div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <h5 class="my-4 text-center">
+                Choose your size
+              </h5>
+              <div class="d-flex justify-content-around">
+                <div class="form-check">
+                  <input
+                    data-size="small"
+                    class="form-check-input"
+                    type="radio"
+                    value="small"
+                    id="small_input"
+                    name="size_filter"
+                  />
+                  <label class="form-check-label" for="small_input">
+                    small
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    data-size="medium"
+                    class="form-check-input"
+                    type="radio"
+                    value="medium"
+                    id="medium_input"
+                    name="size_filter"
+  
+                  />
+                  <label class="form-check-label" for="medium_input">
+                    medium
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    data-size="large"
+                    class="form-check-input"
+                    type="radio"
+                    value="large"
+                    id="large_input"
+                    name="size_filter"
+  
+                  />
+                  <label class="form-check-label" for="large_input">
+                    large
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="product1" class="section-p1">
+        
+        <div class="pro-container">
+        <div class="pro" onclick="window.location.href='sproduct.html';">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.24.33 PM.jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$77</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.24.34 PM (1).jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.24.34 PM (2).jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$75</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.24.34 PM.jpeg" alt="">
+            <div class="des">
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$82</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.24.35 PM.jpeg" alt="">
+            <div class="des">
+           
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.24.36 PM.jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$77</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFQJl0kqXglEPA3iLhgSH0RpZ73_yaCODn6g&usqp=CAU" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="  https://www.almaal.org/wp-content/uploads/2020/09/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D8%B9%D9%85%D9%84-%D8%A5%D9%83%D8%B3%D8%B3%D9%88%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%AE%D8%B1%D8%B2-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D8%A7%D9%84-1.jpg" alt="">
+            <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$77</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+
+        
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.28.04 PM.jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$77</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.28.27 PM.jpeg " alt="">
+            <div class="des">
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.30.01 PM.jpeg" alt="">
+            <div class="des">
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$75</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.30.00 PM.jpeg" alt="">
+            <div class="des">
+          
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$82</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.34.12 PM.jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.32.34 PM.jpeg" alt="">
+            <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$77</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.36.08 PM.jpeg" alt="">
+            <div class="des">
+            
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$80</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        <div class="pro">
+            <img src="images/WhatsApp Image 2023-04-28 at 9.31.32 PM.jpeg" alt="">
+            <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <h4>$77</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+        </div>
+        </div>
+        
+    </section>
+
+
+    <section id="pagination" class="section-p1">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#"><i class="fa-solid fa-right-long"></i></a>
+    </section>
+
+    <section id="newsletter" class="section-m1 section-p1">
+        <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>Get E-mail Updates About Our Latest Shop And <span>Special Offers.</span></p>
+        </div>
+        <div class="form">
+        <input type="text" placeholder="Your Email Address">
+        <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+        <img class="logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d11fe1e4-d82c-409e-be5e-78dd3c35771f/dcwj8pd-ca0bd869-d948-4239-a66d-19834cc71758.png/v1/fill/w_1280,h_1280,q_80,strp/fashionista_logo_design_by_nightowl0827_dcwj8pd-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2QxMWZlMWU0LWQ4MmMtNDA5ZS1iZTVlLTc4ZGQzYzM1NzcxZlwvZGN3ajhwZC1jYTBiZDg2OS1kOTQ4LTQyMzktYTY2ZC0xOTgzNGNjNzE3NTgucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.zlaGSFUHYV-x6-qXCgWAMAM1d9HtOxXlK6uNDgdqOEc" width="25%"  alt="">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Circular Maadi</p>
+        <p><strong>Phone:</strong> +013 0023 345 / (02) 22 2335</p>
+        <p><strong>Hours:</strong> 10:00 - 18:00, Sun - Thu</p>
+        <div class="follow">
+            <h4>Follow US</h4>
+            <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <h4>About</h4>
+        <a href="#">About US</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact US</a>
+        </div>
+
+        <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+        </div>
+
+    <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store Or Google Play</p>
+        <div class="row">
+        <img src="images/app.jpg" alt="">
+        <img src="images/play.jpg" alt="">
+        </div>
+        <p>Secured Payment Geteways</p>
+        <img src="images/pay.png" alt="">
+    </div>
+    <div class="copyright">
+        <p> Copyright ©  @2023.All Rights Reserved.Designd By us.</p>
+    </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
